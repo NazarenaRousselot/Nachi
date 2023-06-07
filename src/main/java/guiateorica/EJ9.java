@@ -1,3 +1,5 @@
+package guiateorica;
+
 import java.util.Scanner;
 
 public class EJ9 {

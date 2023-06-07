@@ -1,3 +1,5 @@
+package guiateorica;
+
 public class nombreEdad {
     public static void main(String[] args) {
         String nombre = "Nazarena";
