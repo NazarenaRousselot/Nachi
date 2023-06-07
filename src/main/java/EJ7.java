@@ -24,6 +24,4 @@ public class EJ7 {
                 System.out.println("la opcion ingresada no es valida para ninguna bomba");
         }
     }
-
-
 }

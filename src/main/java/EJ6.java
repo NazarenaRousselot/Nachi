@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class EJ6 {
     public static void main(String[] args) {
-
         numeros();
-
     }
 
     public static void numeros() {

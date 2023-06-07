@@ -20,7 +20,6 @@ public class EJ9 {
         }
         while (cont < 20);
         System.out.println("la suma de los numeros ingresados es : " + suma);
-
     }
 }
 

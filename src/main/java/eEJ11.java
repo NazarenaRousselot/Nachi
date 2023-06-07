@@ -8,8 +8,6 @@ public class eEJ11 {
         String frase = leer.next();
 
         decodificar(frase);
-
-
     }
 
     public static void decodificar(String palabra) {
