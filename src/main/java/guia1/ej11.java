@@ -1,5 +1,6 @@
 package guia1;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 //Realizar un programa que pida dos números enteros positivos por teclado y muestre por
@@ -20,8 +21,10 @@ import java.util.Scanner;
 public class ej11 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-        int op = 0;
+        Scanner anotherScan = new Scanner(System.in);
         String salir = null;
+
+        int op = 0;
 
 
         System.out.println("ingrese un numero entero y positivo");
@@ -54,22 +57,20 @@ public class ej11 {
                     break;
 
                 case 5:
-                    System.out.println("esta seguro que desea salir del programa? si/no");
-                    salir = leer.nextLine();
-                    if (salir == "si") {
-                        System.out.println("Fin programa");
-                    } else {
-                        System.out.println("volvemo a empezar");
-                        continue;
-                    }
+                    System.out.println("esta seguro que desea salir del programa? s/n");
+                    salir =leer.next();
+                    if ("s".equals(salir)){
+                    System.out.println("fin programa");
+                }
                     break;
+
+
                 default:
                     System.out.println("La opcion ingresada es incorrecta. Volve a empezar");
             }
 
-        } while (op != 5 && salir != "si");
 
-
+        } while (op != 5 || !salir.equals("s"));
     }
 }
 
