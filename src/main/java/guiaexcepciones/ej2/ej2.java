@@ -1,13 +1,23 @@
 package guiaexcepciones.ej2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ej2 {
     public static void main(String[] args) {
-        AlumnosServicio alumno1= new AlumnosServicio();
+        List<Integer> myLista = new ArrayList<>();
+        myLista.add(4);
+        myLista.add(199);
+
+        int [] numeros ={3, 4, 6};
+        int [] nums = new int[4];
+
+
 
         try{
-            alumno1.crearAlumno();
+            System.out.println(numeros[3]);
         }catch (ArrayIndexOutOfBoundsException a){
-            System.out.println("indice del arreglo fuera de rango");
+            System.out.println("No existe la posicion seleccionada");
         }
 
     }
