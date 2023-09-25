@@ -20,5 +20,11 @@ public class ej2 {
             System.out.println("No existe la posicion seleccionada");
         }
 
+        try{
+            System.out.println(nums[4]);
+        }catch (ArrayIndexOutOfBoundsException a){
+            System.out.println("No existe la posicion ");
+        }
+
     }
 }
