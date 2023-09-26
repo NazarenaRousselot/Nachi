@@ -14,6 +14,7 @@ public class ej2 {
 
 
 
+
         try{
             System.out.println(numeros[3]);
         }catch (ArrayIndexOutOfBoundsException a){
@@ -25,6 +26,9 @@ public class ej2 {
         }catch (ArrayIndexOutOfBoundsException a){
             System.out.println("No existe la posicion ");
         }
-
     }
+
 }
+
+
+

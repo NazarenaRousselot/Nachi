@@ -1,4 +1,4 @@
-package guiaexcepciones.ej3;
+package guiaexcepciones.ej3y4;
 
 public class DivisionNumero {
     private String num;
